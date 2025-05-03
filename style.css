@@ -1,1 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fdfaf6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #6b4e16;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.description,
+.ingredients,
+.instructions {
+    margin: 10px auto;
+    max-width: 700px;
+    padding: 10px;
+}
+
+h2 {
+    color: #9c6f34;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+
 
